@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import StatementOfFaith from "../components/StatementOfFaith";
 import Visit from "@/components/Visit";
 import About from "@/components/About";
+import Pastors from "@/components/Pastors";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <StatementOfFaith />
       <Visit/>
       <About/>
+      <Pastors/>
     </div>
   )
 }

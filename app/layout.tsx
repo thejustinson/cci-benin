@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Anton, Lato } from "next/font/google";
+import { Anton, Lato, Fasthand } from "next/font/google";
 import "./globals.css";
 
 
@@ -11,6 +11,12 @@ const anton = Anton({
 
 const lato = Lato({
   variable: "--font-lato",
+  subsets: ["latin"],
+  weight: "400"
+});
+
+const fastHand = Fasthand({
+  variable: "--font-fashand",
   subsets: ["latin"],
   weight: "400"
 });
@@ -31,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${anton.variable} ${lato.variable} antialiased`}
+        className={`${anton.variable} ${lato.variable} ${fastHand.variable} antialiased`}
       >
         {children}
       </body>

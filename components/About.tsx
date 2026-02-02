@@ -19,10 +19,10 @@ const About = () => {
                 </div>
 
                 {/* Right side - Animated fadeInRight */}
-                <p className="mb-[14.4px] w-1/3 px-[30px] md:px-0 text-base leading-[37px] text-justify">
+                <p className="mb-[14.4px] md:w-1/3 px-[30px] md:px-0 text-base leading-[37px] text-justify">
                     Celebration Church International Benin City is one of the campuses of Celebration Church International, established in 2023 with the same enduring vision, to see all men celebrating endless life in Christ Jesus. As part of the CCI Global family, the church remains focused on enlisting and equipping believers to live in Christ, for Christ, and to be redeployed to make even more disciples.
                 </p>
-                <p className="mb-[14.4px] w-1/3 px-[30px] md:px-0 text-base leading-[37px] text-justify">
+                <p className="mb-[14.4px] md:w-1/3 px-[30px] md:px-0 text-base leading-[37px] text-justify">
                     Under the leadership of Pastor Joshua Kesena, the Benin City campus is committed to raising men for the Kingdom through sound doctrine, Spirit-led worship, and intentional discipleship. <br />
                     Got anything confidential you&apos;d love to ask or share with Pastor Josh? Please send an email to pjk@joincci.org.
                 </p>

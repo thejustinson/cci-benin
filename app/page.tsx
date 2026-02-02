@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import StatementOfFaith from "../components/StatementOfFaith";
 import Visit from "@/components/Visit";
+import About from "@/components/About";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Header />
       <StatementOfFaith />
       <Visit/>
+      <About/>
     </div>
   )
 }

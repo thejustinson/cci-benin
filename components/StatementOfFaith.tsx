@@ -13,7 +13,7 @@ const StatementOfFaith = () => {
                 </div>
 
                 {/* Right side - Animated fadeInRight */}
-                <p className="mb-[14.4px] px-[30px] md:px-0 text-base leading-[37px]">
+                <p className="mb-[14.4px] px-[30px] md:px-0 text-base leading-[37px] text-justify">
                     Our greatest success story at Celebration Church has been the 'grace' to effectively evangelize, make disciples of, and deploy people who once upon a time were mere seekers, as mature disciples and vibrant ministers of the gospel.
                 </p>
             </div>
